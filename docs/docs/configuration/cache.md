@@ -40,7 +40,7 @@ $ trivy --cache-dir /tmp/trivy/ image python:3.4-alpine3.9
     This feature might change without preserving backwards compatibility.
 
 Trivy utilizes a scan cache to store analysis results, such as package lists.
-It supports four types of backends for this cache: 
+It supports four types of backends for this cache:
 
 - Local File System (`fs`)
     - The cache path can be specified by `--cache-dir`
